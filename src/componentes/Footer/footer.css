@@ -1,0 +1,18 @@
+.footer-container {
+    text-align: center;
+    width: 100vw;
+    padding: 20px 0;
+    background-color: #686AAC;
+    color: #ffff;
+}
+
+.footer-container p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize
+}
+
+.footer-container span {
+    text-transform: uppercase;
+    opacity: .6;
+}

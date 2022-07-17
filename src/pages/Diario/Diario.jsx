@@ -15,10 +15,8 @@ function Diario() {
             >
                 Meu Diário da Reprograma
             </Header>
-            <main>
                 <div className="info-container">
-                    <div>
-
+                    <div className="inside-container">
                         <img className="responsive-img" src={github} alt="logo github" />
                         <div className="text">
                             <h2>Github</h2>
@@ -34,7 +32,7 @@ function Diario() {
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div className="inside-container">
                         <img className="responsive-img" src={responsive} alt="ilustração responsividade" />
                         <div className="text">
                             <h2>Responsividade</h2>
@@ -51,7 +49,7 @@ function Diario() {
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div className="inside-container">
                         <img className="responsive-img" src={cube} alt="ilustração cubo mágico" />
                         <div className="text">
                             <h2>Lógica e Js</h2>
@@ -67,7 +65,7 @@ function Diario() {
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div className="inside-container">
                         <img className="responsive-img" src={api} alt="ilustração API" />
                         <div className="text">
                             <h2>API</h2>
@@ -81,7 +79,6 @@ function Diario() {
                         </div>
                     </div>
                 </div>
-            </main>
         </>
     )
 }

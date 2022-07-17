@@ -1,0 +1,31 @@
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.each-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 20vw;
+}
+
+.each-contato a {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.responsive-img {
+    width: 50%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.img-git {
+    width: 260%;
+}

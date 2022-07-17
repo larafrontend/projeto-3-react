@@ -1,0 +1,46 @@
+.container {
+    color: #686AAC;
+}
+
+.author-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-infos h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.author-infos p {
+    padding: 50px;
+    font-size: 20px;
+    text-indent: 60px
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.author {
+    width: 25%;
+    border: 5px solid #686AAC;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.text-container {
+    background-color: #686AAC;
+    color: #fff;
+    margin: 50px auto;
+    width: 70vw;
+    border-radius: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
